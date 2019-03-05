@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link href="https://fonts.googleapis.com/css?family=Alegreya" rel="stylesheet">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T"
+        crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/style.css">
+
+</head>
+
+<body>
+    <div class="container">
+        <div class="jumbotron jumbotron-fluid">
+
+            <div class="row">
+                <div class="col-md-12">
+                    <h1 class="display-4"> New York Times Search</h1>
+                </div>
+            </div>
+        </div>
+
+        <br>
+        <div class="alert alert-dark" role="alert">
+            Search Parameters
+        </div>
+        <div class="row search">
+
+            <div class="col-md-12">
+                <form>
+                    Search Term:<br>
+                    <input type="text" id="term" class="form-control" name="search-term">
+                    <br>
+                    Number of Records to Retrieve:<br>
+                    <input type="text" id="number" class="form-control" name="num-of-records"><br>
+                    Start Year (Optional):<br>
+                    <input type="text" id="startYear" class="form-control" name="start-year"><br>
+                    End Year (Optional) :<br>
+                    <input type="text" id="endYear" class="form-control" name="end-year"><br><br>
+
+                    <button type="button" id="search" class="btn btn-outline-dark">Search</button>
+                    <button type="button" id="clear" class="btn btn-outline-dark">Clear Results</button>
+                </form>
+            </div>
+        </div>
+        <br>
+        <div class="row">
+            <div class="col-md-12">
+                <div class="alert alert-dark" role="alert">
+                    Top Articles
+                </div>
+                <div id="divDisplay">
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+<script src="assets/js.js/js.js"></script>
+</html>

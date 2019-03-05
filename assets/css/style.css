@@ -1,0 +1,15 @@
+body{
+    font-family: 'Alegreya', serif;
+}
+.jumbotron-fluid{
+    text-align: center;
+  
+    background: darkblue;
+    color: white;
+}
+.border{
+    border-left: 5px;
+    border-right: 5px;
+    border-bottom: 5px;
+    border: black;
+}
